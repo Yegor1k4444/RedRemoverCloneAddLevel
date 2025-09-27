@@ -8,6 +8,9 @@
 [node name="Block3" parent="." instance=ExtResource("1_kvvkh")]
 position = Vector2(364, 243)
 
+[node name="Block3" parent="Block3" instance=ExtResource("1_kvvkh")]
+position = Vector2(-267, 144)
+
 [node name="Block7" parent="." instance=ExtResource("1_kvvkh")]
 modulate = Color(1, 0, 0, 1)
 position = Vector2(362, 307)

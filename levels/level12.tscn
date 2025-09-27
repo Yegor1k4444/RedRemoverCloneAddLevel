@@ -6,33 +6,62 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Block3" parent="." instance=ExtResource("1_bm2c4")]
-position = Vector2(619, 438)
+position = Vector2(687, 150)
+shape_id = 1
 
 [node name="Block7" parent="." instance=ExtResource("1_bm2c4")]
 modulate = Color(1, 0, 0, 1)
-position = Vector2(662, 373)
-gravity_scale = 1.0
+position = Vector2(730, 85)
 type_id = 1
+shape_id = 1
 
 [node name="Block6" parent="." instance=ExtResource("1_bm2c4")]
-position = Vector2(686, 439)
+modulate = Color(1, 0, 0, 1)
+position = Vector2(511, 252)
+type_id = 1
+shape_id = 1
 
 [node name="Block10" parent="." instance=ExtResource("1_bm2c4")]
-position = Vector2(507, 375)
+position = Vector2(541, 87)
 scale = Vector2(0.959024, 1.02258)
+shape_id = 1
 
 [node name="Block17" parent="." instance=ExtResource("1_bm2c4")]
-position = Vector2(394, 440)
+modulate = Color(1, 0, 0, 1)
+position = Vector2(343, 402)
+type_id = 1
+shape_id = 1
 
 [node name="Block21" parent="." instance=ExtResource("1_bm2c4")]
 modulate = Color(0, 1, 0, 1)
-position = Vector2(353, 372)
-gravity_scale = 1.0
+position = Vector2(387, 84)
 type_id = 2
+shape_id = 1
 
 [node name="Block24" parent="." instance=ExtResource("1_bm2c4")]
-position = Vector2(326, 439)
+position = Vector2(360, 151)
+shape_id = 1
 
 [node name="Shelf" parent="." instance=ExtResource("2_qyeqj")]
 position = Vector2(501, 505)
 scale = Vector2(0.962981, 2.72544)
+
+[node name="Shelf2" parent="." instance=ExtResource("2_qyeqj")]
+position = Vector2(251, 290)
+scale = Vector2(0.405319, -0.736672)
+
+[node name="Shelf3" parent="." instance=ExtResource("2_qyeqj")]
+position = Vector2(676, 293)
+scale = Vector2(0.405319, -0.736672)
+
+[node name="Shelf4" parent="." instance=ExtResource("2_qyeqj")]
+position = Vector2(322, 232)
+scale = Vector2(0.140603, -0.114568)
+
+[node name="Shelf5" parent="." instance=ExtResource("2_qyeqj")]
+position = Vector2(597, 233)
+scale = Vector2(0.140603, -0.114568)
+
+[node name="Block25" parent="." instance=ExtResource("1_bm2c4")]
+position = Vector2(291, 29)
+shape_id = 1

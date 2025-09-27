@@ -10,29 +10,34 @@ position = Vector2(619, 438)
 
 [node name="Block7" parent="." instance=ExtResource("1_tcv6n")]
 modulate = Color(1, 0, 0, 1)
-position = Vector2(662, 373)
-gravity_scale = 1.0
+position = Vector2(630, 71)
 type_id = 1
 
 [node name="Block6" parent="." instance=ExtResource("1_tcv6n")]
-position = Vector2(686, 439)
+position = Vector2(619, 372)
 
 [node name="Block10" parent="." instance=ExtResource("1_tcv6n")]
-position = Vector2(507, 375)
+position = Vector2(625, 223)
 scale = Vector2(0.959024, 1.02258)
 
 [node name="Block17" parent="." instance=ExtResource("1_tcv6n")]
-position = Vector2(394, 440)
+position = Vector2(618, 303)
 
 [node name="Block21" parent="." instance=ExtResource("1_tcv6n")]
 modulate = Color(0, 1, 0, 1)
-position = Vector2(353, 372)
-gravity_scale = 1.0
+position = Vector2(325, 91)
+mass = 4.85
 type_id = 2
+shape_id = 1
 
 [node name="Block24" parent="." instance=ExtResource("1_tcv6n")]
-position = Vector2(326, 439)
+position = Vector2(633, 148)
 
 [node name="Shelf" parent="." instance=ExtResource("2_h7pi5")]
-position = Vector2(501, 505)
-scale = Vector2(0.962981, 2.72544)
+position = Vector2(620, 486)
+scale = Vector2(0.196167, -0.624648)
+
+[node name="Shelf2" parent="." instance=ExtResource("2_h7pi5")]
+position = Vector2(375, 445)
+rotation = 0.261799
+scale = Vector2(0.796167, -0.624648)

@@ -11,8 +11,8 @@ position = Vector2(619, 438)
 [node name="Block7" parent="." instance=ExtResource("1_b5umm")]
 modulate = Color(1, 0, 0, 1)
 position = Vector2(662, 373)
-gravity_scale = 1.0
 type_id = 1
+shape_id = 2
 
 [node name="Block6" parent="." instance=ExtResource("1_b5umm")]
 position = Vector2(686, 439)
@@ -27,8 +27,8 @@ position = Vector2(394, 440)
 [node name="Block21" parent="." instance=ExtResource("1_b5umm")]
 modulate = Color(0, 1, 0, 1)
 position = Vector2(353, 372)
-gravity_scale = 1.0
 type_id = 2
+shape_id = 1
 
 [node name="Block24" parent="." instance=ExtResource("1_b5umm")]
 position = Vector2(326, 439)
@@ -36,3 +36,31 @@ position = Vector2(326, 439)
 [node name="Shelf" parent="." instance=ExtResource("2_ixs1f")]
 position = Vector2(501, 505)
 scale = Vector2(0.962981, 2.72544)
+
+[node name="Block4" parent="." instance=ExtResource("1_b5umm")]
+position = Vector2(615, 299)
+
+[node name="Block8" parent="." instance=ExtResource("1_b5umm")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(658, 234)
+type_id = 1
+shape_id = 2
+
+[node name="Block9" parent="." instance=ExtResource("1_b5umm")]
+position = Vector2(682, 300)
+
+[node name="Block11" parent="." instance=ExtResource("1_b5umm")]
+position = Vector2(503, 236)
+scale = Vector2(0.959024, 1.02258)
+
+[node name="Block18" parent="." instance=ExtResource("1_b5umm")]
+position = Vector2(390, 301)
+
+[node name="Block22" parent="." instance=ExtResource("1_b5umm")]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(349, 233)
+type_id = 2
+shape_id = 1
+
+[node name="Block25" parent="." instance=ExtResource("1_b5umm")]
+position = Vector2(322, 300)
